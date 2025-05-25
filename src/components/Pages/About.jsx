@@ -24,10 +24,8 @@ export default function About({ dark, setDark }) {
               transition={{ duration: 0.6, delay: 0 }}
               className={dark ? "gris" : ""}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae a
-              ratione sed suscipit quo nesciunt voluptas eum quia. Ex modi hic
-              consequatur aspernatur eveniet dolores tenetur! Tenetur
-              repellendus consequatur excepturi.
+              I am a dedicated student at CNTEMAD, passionate about computer science and web development. Self-taught and highly motivated, I constantly seek to improve my skills and push my limits.
+
             </motion.p>
             <div className="grid">
               {AboutData.map((val, i) => (
