@@ -13,7 +13,7 @@ import vscode from "../../Images/Vscode.png"
 export const MenuListData = [
   {
     url: "/",
-    menu: "Accueil",
+    menu: "Home",
   },
   {
     url: "/About",
@@ -21,11 +21,11 @@ export const MenuListData = [
   },
   {
     url: "/Project",
-    menu: "Project",
+    menu: "Projects",
   },
   {
     url: "/Competence",
-    menu: "Competence",
+    menu: "Skills",
   },
   {
     url: "/Contact",
@@ -88,17 +88,17 @@ export const ProjectData = [
 export const ContactData = [
   {
     icones: "bx bx-phone-call",
-    titre : "TELEPHONE",
+    titre : "PHONE",
     text: "+261389637092",
   },
   {
     icones: "bx bx-envelope",
-    titre : "MAIL",
+    titre : "EMAIL",
     text: "rnandrianina11@gmail.com",
   },
   {
     icones: "bx bx-home",
-    titre : "LOCALISATION",
+    titre : "LOCATION",
     text: "LOT 250 BIS FM Morondava",
   },
   {
