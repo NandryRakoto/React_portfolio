@@ -5,7 +5,7 @@ export const Footer = () => {
     <>
       <footer>
         <b>
-          Contact : <a href="tel:+2619637092">+2619637092</a>
+          Contact : <a href="tel:+261389637092">+261389637092</a>
         </b>
         <p>&copy; 2025 NAH | Dev passionnée </p>
         <div className="fin">
