@@ -56,8 +56,7 @@ export const Header = ({ dark, setDark }) => {
               </Link>
             ))}
           </div>
-          <p>Creating seamless user experiences with clean, efficient code. Let’s build the future of the web together!
-          </p>
+
           <div className="reseau">
             <a
               href="https://www.facebook.com/rakotoarisoa.nandrianina.9

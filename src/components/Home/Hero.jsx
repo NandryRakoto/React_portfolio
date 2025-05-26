@@ -16,8 +16,14 @@ export default function Hero({ dark, setDark }) {
             className="text"
           >
             <h4>Launch your project with confidence</h4>
-            <h2>Hi, I’m <span>Nandrianina</span> , Front-End Developer</h2>
-            <p>I specialize in creating smooth, responsive, and user-friendly web interfaces. Passionate about clean code and modern design, I turn your ideas into reality with HTML, CSS, JavaScript, and React. Let’s build something great together!
+            <h2>
+              Hi, I’m <span>Nandrianina</span>, Front-End Developer
+            </h2>
+            <p>
+              I specialize in creating smooth, responsive, and user-friendly web
+              interfaces. Passionate about clean code and modern design, I turn
+              your ideas into reality with HTML, CSS, JavaScript, and React.
+              Let’s build something great together!
             </p>
             <Link to="/Project">
               <button>Get started</button>

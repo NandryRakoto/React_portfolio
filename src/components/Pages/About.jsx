@@ -28,6 +28,9 @@ export default function About({ dark, setDark }) {
               I am a dedicated student at CNTEMAD, passionate about computer
               science and web development. Self-taught and highly motivated, I
               constantly seek to improve my skills and push my limits.
+
+              I am a dedicated student at CNTEMAD, passionate about computer science and web development. Self-taught and highly motivated, I constantly seek to improve my skills and push my limits.
+
             </motion.p>
             <div className="grid">
               {AboutData.map((val, i) => (
