@@ -2,8 +2,9 @@ import React from "react";
 import "../../index.css";
 import { AboutData } from "../Data/Data";
 import "boxicons/css/boxicons.min.css";
-import image from "../../Images/image.png";
+import image from "../../Images/me1.jpg";
 import { motion } from "framer-motion";
+import { Footer } from "./Footer";
 
 export default function About({ dark, setDark }) {
   return (
@@ -16,7 +17,7 @@ export default function About({ dark, setDark }) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0 }}
             >
-              About me
+              About Me
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, x: -100 }}
@@ -24,10 +25,9 @@ export default function About({ dark, setDark }) {
               transition={{ duration: 0.6, delay: 0 }}
               className={dark ? "gris" : ""}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae a
-              ratione sed suscipit quo nesciunt voluptas eum quia. Ex modi hic
-              consequatur aspernatur eveniet dolores tenetur! Tenetur
-              repellendus consequatur excepturi.
+              I am a dedicated student at CNTEMAD, passionate about computer
+              science and web development. Self-taught and highly motivated, I
+              constantly seek to improve my skills and push my limits.
             </motion.p>
             <div className="grid">
               {AboutData.map((val, i) => (
@@ -56,6 +56,7 @@ export default function About({ dark, setDark }) {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { CircularProgress } from "@mui/material";
 import { SkillData } from "../Data/Data";
 import { motion } from "framer-motion";
+import { Footer } from "./Footer";
 
 export const Competence = ({ dark, setDark }) => {
   return (
@@ -33,6 +34,7 @@ export const Competence = ({ dark, setDark }) => {
           ))}
         </div>
       </section>
+      <Footer />
     </>
   );
 };

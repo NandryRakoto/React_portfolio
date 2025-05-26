@@ -4,6 +4,7 @@ import image from "../../Images/im (1).jpg";
 import { toast } from "react-hot-toast";
 import { motion } from "framer-motion";
 import { useForm } from "@formspree/react";
+import { Footer } from "./Footer";
 
 export const Contact = ({ dark, setDark }) => {
   const [state, handleSubmit] = useForm("mbljvyzd");
@@ -103,11 +104,12 @@ export const Contact = ({ dark, setDark }) => {
                 required
                 placeholder="Your message"
               ></textarea>
-              <button type="submit">Envoyer</button>
+              <button type="submit">SEND</button>
             </form>
           </motion.div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

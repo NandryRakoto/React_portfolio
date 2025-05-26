@@ -48,7 +48,7 @@ export const Header = ({ dark, setDark }) => {
           </div>
         </div>
         <div className={affiche ? "masque" : "ListCache"}>
-          <h3>navigation</h3>
+          <h3>Navigation</h3>
           <div className="menuList">
             {MenuListData.map((val, i) => (
               <Link to={val.url} key={i} onClick={ferme}>
@@ -56,11 +56,7 @@ export const Header = ({ dark, setDark }) => {
               </Link>
             ))}
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            impedit quibusdam ex, incidunt ducimus voluptatibus numquam.
-            Tempore, tempora hic error ab, unde, numquam dignissimos expedita
-            nihil nesciunt alias doloribus esse?
+          <p>Creating seamless user experiences with clean, efficient code. Let’s build the future of the web together!
           </p>
           <div className="reseau">
             <a

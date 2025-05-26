@@ -1,6 +1,6 @@
 import image from "../../Images/im (1).jpg";
-import image1 from "../../Images/im (1).png";
-import image2 from "../../Images/im (2).jpg";
+import image1 from "../../Images/landy (1).jpg";
+import image2 from "../../Images/landy (2).jpg";
 import html from "../../Images/Html.png"
 import css from "../../Images/Css.png"
 import javascript from "../../Images/Javascript.png"
@@ -13,7 +13,7 @@ import vscode from "../../Images/Vscode.png"
 export const MenuListData = [
   {
     url: "/",
-    menu: "Accueil",
+    menu: "Home",
   },
   {
     url: "/About",
@@ -21,11 +21,11 @@ export const MenuListData = [
   },
   {
     url: "/Project",
-    menu: "Project",
+    menu: "Projects",
   },
   {
     url: "/Competence",
-    menu: "Competence",
+    menu: "Skills",
   },
   {
     url: "/Contact",
@@ -61,44 +61,34 @@ export const AboutData = [
 export const ProjectData = [
   {
     date: "10 Mai 2025",
-    image: image,
-    descri:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit praesentium excepturi repellendus, odio repellat?",
-    git: "url",
-    demo: "url",
+    image: image1,
+    descri:"LandyGasy Un site vitrine que j’ai conçu pour mettre en avant le lambalandy, un tissu emblématique de Madagascar. C’est un projet simple mais symbolique, qui me tient à cœur car il allie culture et création numérique.",
+    git: "https://github.com/NandryRakoto/LANDYGASY",
+    demo: "https://nandryrakoto.github.io/LANDYGASY/",
   },
   {
     date: "6 Avril 2025",
-    image: image1,
-    descri:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit praesentium excepturi repellendus, odio repellat?",
-    git: "url",
-    demo: "url",
+    image: image2,
+    descri:" Tirage ,Un petit projet personnel autour du tirage aléatoire. Même s’il est très simple, il m’a permis de m’amuser et d’explorer la logique derrière les sélections aléatoires de façon ludique. ",
+    git: "https://github.com/NandryRakoto/tirage",
+    demo: "https://nandryrakoto.github.io/tirage/",
   },
 
-  {
-    date: "19 janvier 2025",
-    image: image2,
-    descri:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit praesentium excepturi repellendus, odio repellat?",
-    git: "url",
-    demo: "url",
-  },
 ];
 export const ContactData = [
   {
     icones: "bx bx-phone-call",
-    titre : "TELEPHONE",
+    titre : "PHONE",
     text: "+261389637092",
   },
   {
     icones: "bx bx-envelope",
-    titre : "MAIL",
+    titre : "EMAIL",
     text: "rnandrianina11@gmail.com",
   },
   {
     icones: "bx bx-home",
-    titre : "LOCALISATION",
+    titre : "LOCATION",
     text: "LOT 250 BIS FM Morondava",
   },
   {

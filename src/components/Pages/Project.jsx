@@ -2,6 +2,7 @@ import React from "react";
 import { ProjectData } from "../Data/Data";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Footer } from "./Footer";
 
 export const Project = ({ dark, setDark }) => {
   return (
@@ -26,22 +27,21 @@ export const Project = ({ dark, setDark }) => {
                 <code>{val.date}</code>
                 <div className="buttonCard">
                   <button className="Git">
-                    <Link to={val.git}>Github</Link>
+                    <a href={val.git}>Github</a>
                     <i className="bx bxl-github"></i>
                   </button>
                   <button>
-                    <Link to={val.demo}>Demo</Link>
+                    <a href={val.demo}>Demo</a>
                     <i className="bx bx-show"></i>
                   </button>
-                  <Link to={val.git}>
-                    <i className="bx bx-share-alt"></i>
-                  </Link>
+                  
                 </div>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };
